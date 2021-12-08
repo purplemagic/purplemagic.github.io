@@ -1,4 +1,4 @@
-/////////////////Celokupna ponuda
+
 let celaPonuda = [
   {
     "naslov": "Dior Sauvage",
@@ -393,36 +393,7 @@ function pojava() {
   }
 }
 //DINAMICKO ISPISIVANJE CELOKUPNE PONUDE
-let ispis = ""
-for (let jedan of celaPonuda) {
-  ispis +=
-    `
-    <div class="product-card">`;
-  if (parfemNaslov.includes(jedan.naslov)) {
-
-    ispis +=
-      `<div class="badge">Hot</div>`;
-  }
-
-  ispis += `
-    <div class="product-tumb">
-      <img src="${jedan.slika.src}" alt="${jedan.slika.alt}">
-    </div>
-    <div class="product-details">
-      <span class="product-catagory">${jedan.tip}, ${jedan.pol}</span>
-      <h4><a href="">${jedan.naslov}</a></h4>
-      <p>${jedan.pol} parfem, proizveden ${jedan.godinaProizvodnje}. Sa notama: ${jedan.nota}. Dolazi u pakovanju od ${jedan.zapremina}</p>
-      <div class="product-bottom-details">
-        <div class="product-price">${jedan.cena}</div>
-        <div class="product-links">
-          <a href="" class='heartButton'><i class="fa fa-heart"></i></a>
-          <a href="#kontakt"><i class="fa fa-shopping-cart"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  `
-}
+ispis(celaPonuda, parfemNaslov);
 /////////////////////////////////////////////
 
 // DUGME ZA FAVORITE I POPUP MESSAGE KAD SE UKLONI/DODA
@@ -853,3 +824,65 @@ $(document).ready(function () {
   }
   setInterval(updateTime, 1000);
 });
+function ispis(content, header){
+  let ispis = ""
+for (let jedan of content) {
+  ispis +=
+    `
+    <div class="product-card">`;
+  if (header.includes(jedan.naslov)) {
+
+    ispis +=
+      `<div class="badge">Hot</div>`;
+  }
+
+  ispis += `
+    <div class="product-tumb">
+      <img src="${jedan.slika.src}" alt="${jedan.slika.alt}">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">${jedan.tip}, ${jedan.pol}</span>
+      <h4><a href="">${jedan.naslov}</a></h4>
+      <p>${jedan.pol} parfem, proizveden ${jedan.godinaProizvodnje}. Sa notama: ${jedan.nota}. Dolazi u pakovanju od ${jedan.zapremina}</p>
+      <div class="product-bottom-details">
+        <div class="product-price">${jedan.cena}</div>
+        <div class="product-links">
+          <a href="" class='heartButton'><i class="fa fa-heart"></i></a>
+          <a href="#kontakt"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  `
+}
+$("#celokupnaPonuda").html(ispis)
+}
+
+/////////////////Celokupna ponuda
+function klikSort(){
+  var kriterijumSort = $(this).data('sort');
+  var redosled = $(this).data('order');
+  sortLS(kriterijumSort, redosled);
+
+  ajaxTelefoni(function(telefons){
+    sortiraj(telefons, kriterijumSort, redosled);
+    ispisiTelefon(telefons);
+  })
+}
+function sortiraj(fon, kriterijumSort, redosled){
+  //console.log(fon + "--" + kriterijumSort + redosled);
+  fon.sort(function(a, b){
+    var va = (kriterijumSort == 'cena') ? a.price.cost : a.name;
+    var vb = (kriterijumSort == 'cena') ? b.price.cost : b.name;
+    if(va > vb){
+      return redosled == "asc" ? 1 : -1;
+    }
+    else if( va < vb)
+      return redosled == "desc" ? 1 : -1;
+    else return 0;
+  })
+}
+
+function sortLS(kriterijumSort, redosled){
+  setLocalStorage({ kriterijumSort: kriterijumSort, redosled: redosled});
+}
