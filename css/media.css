@@ -9,6 +9,18 @@
     bottom: 5%;
     left: 34%;
   }
+
+  .isti {
+    font-size: 11px;
+  }
+
+  .tekstovi {
+    font-size: 11px;
+  }
+
+  .pojava {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 969px) {
@@ -61,6 +73,16 @@
 
   .isti {
     display: inline-block;
+    font-size: 15px;
+  }
+
+  .tekstovi {
+    font-size: 15px;
+    margin: auto;
+  }
+
+  .pojava {
+    font-size: 15px;
   }
 
   .isti img {
@@ -68,6 +90,7 @@
     margin-left: 1%;
     display: block;
   }
+
 
   #thumb a {
     display: none;

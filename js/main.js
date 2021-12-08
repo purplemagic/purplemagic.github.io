@@ -227,12 +227,12 @@ var parfemSlika = [
   "milion.jpg",
 ];
 var kratakOpis = [
-  "<li>Brend: Sisley</li><li>Zapremina: 100ml</li><li>Tip: Parfemska voda</li><li>Mirisna nota: turska ruža</li><li>Godina lansiranja: 2015</li><li>Pol: Ženski</li><li><b>Cena: 29790 RSD</b></li>",
-  "<li>Brend: Creed</li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Mirisna nota: voćni chypre</li><li>Godina lansiranja: 2010 </li><li>Pol: Muški </li><li><b>Cena: 20400 RSD</b></li>",
-  "<li>Brend: Tom Ford</li><li>Zapremina: 30ml</li><li>Tip: Parfemska voda</li><li>Mirisna nota: orijentalni drveni </li><li>Godina lansiranja: 2007 </li><li>Pol: Unisex </li><li><b>Cena: 16900 RSD </b></li>",
-  "<li>Brend: Escada </li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Mirisna nota: vodene note </li><li>Godina lansiranja: 2011 </li><li>Pol: Ženski </li><li><b>Cena: 10190 RSD </b></li>",
-  "<li>Brend: Calvin Klein </li><li>Zapremina: 100ml</li><li>Tip: Toaletna voda </li><li>Mirisna nota: 	citrusni aromatični </li><li>Godina lansiranja: 1994 </li><li>Pol: Unisex </li><li><b>Cena: 3560 RSD </b></li>",
-  "<li>Brend: Paco Rabanne </li><li>Zapremina: 50ml </li><li>Tip: Parfemsa voda </li><li>Mirisna nota: kožni </li><li>Godina lansiranja: 2009 </li><li>Pol: Muški </li><li><b>Cena: 6430 RSD </b></li>",
+  "<li>Brend: Sisley</li><li>Zapremina: 100ml</li><li>Tip: Parfemska voda</li><li>Nota: turska ruža</li><li>Godina lansiranja: 2015</li><li>Pol: Ženski</li><li><b>Cena: 29790 RSD</b></li>",
+  "<li>Brend: Creed</li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: voćni chypre</li><li>Godina lansiranja: 2010 </li><li>Pol: Muški </li><li><b>Cena: 20400 RSD</b></li>",
+  "<li>Brend: Tom Ford</li><li>Zapremina: 30ml</li><li>Tip: Parfemska voda</li><li>Nota: orijentalni drveni </li><li>Godina lansiranja: 2007 </li><li>Pol: Unisex </li><li><b>Cena: 16900 RSD </b></li>",
+  "<li>Brend: Escada </li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: vodene note </li><li>Godina lansiranja: 2011 </li><li>Pol: Ženski </li><li><b>Cena: 10190 RSD </b></li>",
+  "<li>Brend: Calvin Klein </li><li>Zapremina: 100ml</li><li>Tip: Toaletna voda </li><li>Nota: 	citrusni aromatični </li><li>Godina lansiranja: 1994 </li><li>Pol: Unisex </li><li><b>Cena: 3560 RSD </b></li>",
+  "<li>Brend: Paco Rabanne </li><li>Zapremina: 50ml </li><li>Tip: Parfemsa voda </li><liNota: kožni </li><li>Godina lansiranja: 2009 </li><li>Pol: Muški </li><li><b>Cena: 6430 RSD </b></li>",
 ];
 var opis = [
   "Parfem koji nas obavija prepoznatljivom, skoro magičnom atmosferom orijentalne palate. Alcazar dvorac u Sevilji se prikazuje u novom svetlu, ukazujući na miris obavijen velom tajne koja slavi divnu ženstvenost. Kompozicija je zagonetna koliko i očaravajuće senzualna. Blistavo očaravajućim gornjim notama zavodi cvetnim srcem ostavljajući delikatno drvenu toplinu na svom putu.",

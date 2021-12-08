@@ -129,12 +129,7 @@ main {
   margin-bottom: 5%;
 }
 
-.tekstovi {
-  width: 100%;
-  margin: 0px auto;
-  margin-bottom: 5%;
-  font-size: 18px;
-}
+
 
 .naslovi {
   text-decoration: underline;
@@ -191,8 +186,8 @@ main {
 
 .tekstovi {
   max-width: 70%;
-  margin-top: 20px;
   padding: 20px;
+  margin-top: 10px;
 }
 
 
@@ -234,6 +229,7 @@ textarea {
 }
 
 #oautoru {
+
   border-radius: 20px;
   margin: 50px auto;
   width: 80%;
@@ -291,6 +287,10 @@ footer a {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
+}
+
+footer a:hover {
+  color: white;
 }
 
 #mreze {
