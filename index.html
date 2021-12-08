@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Nikola Antić" />
+  <meta name="keywords" content="parfem, parfemi, toaletna voda, miris" />
+
+
+
+
+  <meta name="description" content="Tvoji omiljeni parfemi kod nas, poruči" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="icon" href="img/logo.png" />
+
+  <link href="dist/jquery.magnify.css" rel="stylesheet" />
+  <!-- JQUERY PLUGIN ZA SLIKE-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script src="dist/jquery.magnify.js"></script>
+  <title>Moj Parfem</title>
+</head>
+
+<body>
+  <div id="notification" class='hidden'></div>
+  <header id="header"></header>
+  <main>
+    <img src="img/gore.png" id="vrh" alt="Na Vrh">
+    <div id="thumb">
+      <div id="h1ih2">
+        <h2>Najveća kolekcija parfema u Srbiji!</h2>
+        <h1>Širok asortiman ponude</h1>
+        <p>Najtraženiji i najpopularniji parfemi baš kod nas!</p>
+        <a href="#h1celokupna">Pogledaj</a>
+      </div>
+
+    </div>
+    <div id="izdvajamo">
+      <h1>Izdvajamo iz ponude</h1>
+    </div>
+    <div id="ponudaNaslov">
+      <h1 id="h1celokupna">Celokupna ponuda</h1>
+    </div>
+    <div id='sortPol'>
+      <button id='sortM' class="dugmeSort">Muški</button>
+      <button id='sortZ' class="dugmeSort">Ženski</button>
+    </div>
+    <div id="celokupnaPonuda">
+
+    </div>
+    <div id="kontakt">
+      <h3>Kontaktiraj nas</h3>
+      <form id="forma" action="1.php" method="POST">
+        <table>
+          <tr>
+            <td class="pk"><label for="ime">Ime:</label></td>
+            <td>
+              <input type="text" placeholder="Nikola" id="ime" name="ime" />
+            </td>
+            <td class="tk">
+              <p id="greskaime" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="pk"><label for="prezime">Prezime: </label></td>
+            <td>
+              <input type="text" placeholder="Antić" id="prezime" name="prezime" />
+            </td>
+            <td class="tk">
+              <p id="greskaprezime" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="pk"><label for="grad">Grad: </label></td>
+            <td>
+              <select id="grad"> </select>
+            </td>
+            <td class="tk">
+              <p id="greskagrad" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="pk"><label for="email">Email: </label></td>
+            <td>
+              <input type="email" placeholder="nikola.antic@gmail.com" id="email" name="email" />
+            </td>
+            <td class="tk">
+              <p id="greskaemail" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="pk"><label for="broj">Broj telefona: </label></td>
+            <td>
+              <input type="text" placeholder="060/4025-500" id="broj" name="broj" />
+            </td>
+            <td class="tk">
+              <p id="greskabroj" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="pk"><label for="poruka">Poruka: </label></td>
+            <td>
+              <textarea id="poruka" placeholder="Parfem koj želiš"></textarea>
+            </td>
+            <td class="tk">
+              <p id="greskaporuka" class="greska"></p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" id="dugme" value="Poruči" /></td>
+            <td class="tk">
+              <p id="uspesno"></p>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div id="oautoru">
+      <h3 id="hatri">O Autoru</h3>
+      <div id="text">
+        <p id="paragraf">
+          Zovem se Nikola Antić, živim u Beogradu i studiram na Visokoj ICT. Opredelio sam se za mrežno administriranje i trenutno pohadjam CCNA kurs.
+        <p id="vise">Rođen sam u Beogradu 1999. godine. Završio građevinsko-tehničku školu i totalno promenio interesovanja za te četiri godine. Dva ispita me dele do diplome i nadam se skorom završetku školovanja </p>
+        <button id="prikazivise">Prikaži više</button>
+        </p>
+      </div>
+      <img id="autor" src="img/autor.jpeg" alt="Nikola Antić" />
+      <div class="cleaner"></div>
+    </div>
+  </main>
+  <footer>
+    <p id="cr">Copyright&copy; Nikola Antić</p>
+    <div id="mreze"></div>
+    <div id="vreme"></div>
+    <a href="" id="dokumentacija" target="_blank">Dokumentacija</a>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
