@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cleaner {
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eae7dc;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+}
+
+header a {
+  font-size: 22px;
+  margin: 0px 20px;
+  color: #362c28;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header img {
+  width: auto;
+  height: 100%;
+}
+
+main {
+  margin-top: 100px;
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+#thumb {
+  width: 100%;
+  position: relative;
+  height: 557px;
+  background-image: linear-gradient(rgba(252, 191, 73, 0.3),
+      rgba(252, 191, 73, 0.3)),
+    url("../img/thumb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: #000;
+}
+
+#thumb a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 15%;
+  left: 38.5%;
+  padding: 5px 100px;
+  border: 2px solid #000;
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 40px;
+  transition: color 500ms ease, background-color 500ms ease;
+}
+
+#thumb a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+#h1ih2 {
+  width: 80%;
+  height: 200px;
+  margin: 0px auto;
+  padding-top: 100px;
+}
+
+#h1ih2 h1 {
+  font-size: 70px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+#h1ih2 h2 {
+  font-size: 40px;
+}
+
+#h1ih2 p {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+#izdvajamo {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+}
+
+#izdvajamo h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.boja {
+  background-color: #d8c3a5;
+}
+
+.novi {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  text-align: center;
+}
+
+.parfemi {
+  margin-bottom: 5%;
+}
+
+.tekstovi {
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 5%;
+  font-size: 18px;
+}
+
+.naslovi {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.isti {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  opacity: 0;
+  transition: 1s all ease;
+  transform: translateY(50px);
+}
+
+.pojava {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.isti h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.isti img {
+  max-height: 200px;
+  width: auto;
+  margin: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.levitekst,
+.desnitekst {
+  max-width: 60%;
+  height: 100%;
+}
+
+.tekstovi {
+  max-width: 70%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+
+h4 {
+  text-decoration: none;
+}
+
+#kontakt {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #eae7dc;
+}
+
+#kontakt h3 {
+  font-size: 50px;
+  padding-top: 30px;
+  margin-left: 150px;
+  opacity: 0;
+  transition: 1000ms all ease;
+}
+
+form {
+  width: 70%;
+  height: auto;
+  margin: 10px auto;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 200px;
+}
+
+#oautoru {
+  border-radius: 20px;
+  margin: 50px auto;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 100px;
+  background-color: #e85a4f;
+}
+
+#oautoru h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#hatri {
+  opacity: 0;
+  margin-left: -50px;
+  transition: 1000ms all ease;
+}
+
+#text {
+  float: left;
+  width: 60%;
+  margin-top: 90px;
+  font-size: 20px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+#oautoru img {
+  width: 17%;
+  height: auto;
+  margin-top: 40px;
+  float: right;
+  margin-right: 0px;
+  border-radius: 15px;
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+footer {
+  width: 100%;
+  background-color: #8e8d8a;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+#mreze {
+  display: flex;
+  width: 200px;
+  height: auto;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.fas,
+.fab {
+  color: #000;
+}
+
+.fas:hover,
+.fab:hover {
+  animation: okreni 1s ease;
+}
+
+@keyframes okreni {
+  33% {
+    transform: rotate(-30deg);
+  }
+
+  66% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#vrh {
+  cursor: pointer;
+  position: fixed;
+  bottom: 9%;
+  right: 5%;
+  z-index: 1;
+}
+
+table {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  margin-right: 150px;
+  opacity: 0;
+  transition: 1500ms all ease;
+}
+
+table td {
+  width: 33%;
+}
+
+.pk {
+  text-align: right;
+}
+
+.tk {
+  text-align: left;
+}
+
+.tk p {
+  margin-left: 20px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+#dugme {
+  width: 100%;
+  background-color: rgb(223, 213, 213);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.greska {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #f00;
+}
+
+#uspesno {
+  margin-left: 20px;
+  font-size: 20px;
+  color: green;
+}
+
+#prikazivise {
+  background: rgb(223, 213, 213);
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 20%;
+  margin-top: 20px;
+  padding: 5px 20px;
+  margin-left: 45%;
+  font-size: 16px;
+}
+
+#vise {
+  display: none;
+}
+
+.fa-check {
+  font-size: 1.3em;
+  color: rgb(0, 161, 0);
+  font-weight: bold;
+}
+
+#ponudaNaslov {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#celokupnaPonuda {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.product-card {
+  width: 380px;
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 50px 20px;
+  background: #fafafa;
+  border-radius: 20px;
+}
+
+.badge {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 50px;
+  background: #f0f0f0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-tumb img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+
+.product-details {
+  padding: 30px;
+}
+
+.product-catagory {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 18px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #fbb72c;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #fbb72c;
+  font-weight: 600;
+}
+
+#notification {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: #c53e49;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  padding: 1rem;
+  top: 120px;
+  right: 20px;
+  z-index: 2;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.product-links {
+  text-align: right;
+}
+
+.product-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links a:hover {
+  color: #fbb72c;
+}
+
+#sortPol {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dugmeSort {
+  border: 1px solid pink;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#sortM:hover {
+  background-color: #008CBA;
+
+}
+
+#sortZ:hover {
+  background-color: palevioletred;
+}
