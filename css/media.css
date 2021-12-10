@@ -2,6 +2,11 @@
   .isti img {
     max-height: 150px;
   }
+
+  #h1ih2 p {
+    margin-top: 5px;
+
+  }
 }
 
 @media only screen and (max-width: 1115px) {
@@ -35,7 +40,7 @@
   }
 
   #thumb h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   #oautoru img {
@@ -50,6 +55,10 @@
 
   #vreme {
     display: none;
+  }
+
+  #prikazivise {
+    margin-left: 30%;
   }
 }
 
@@ -78,7 +87,9 @@
 
   .tekstovi {
     font-size: 15px;
-    margin: auto;
+    margin: 0px auto;
+    max-width: 100%;
+    text-align: justify;
   }
 
   .pojava {

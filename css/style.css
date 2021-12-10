@@ -62,9 +62,6 @@ main {
 
 #thumb a {
   text-decoration: none;
-  position: absolute;
-  bottom: 15%;
-  left: 38.5%;
   padding: 5px 100px;
   border: 2px solid #000;
   color: #000;
@@ -83,24 +80,27 @@ main {
   height: 200px;
   margin: 0px auto;
   padding-top: 100px;
+  color: #232b2b
 }
 
 #h1ih2 h1 {
   font-size: 70px;
   margin-top: 40px;
   text-transform: uppercase;
+  color: #232b2b
 }
 
 #h1ih2 h2 {
   font-size: 40px;
+  color: #232b2b
 }
 
 #h1ih2 p {
   margin-top: 50px;
+  margin-bottom: 35px;
   font-weight: bold;
   font-size: 20px;
 }
-
 
 #izdvajamo {
   width: 100%;
@@ -112,6 +112,7 @@ main {
   text-align: center;
   font-size: 50px;
   margin-top: 20px;
+  color: #232b2b
 }
 
 .boja {
@@ -129,8 +130,6 @@ main {
   margin-bottom: 5%;
 }
 
-
-
 .naslovi {
   font-size: 30px;
   font-weight: bold;
@@ -144,7 +143,6 @@ main {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 20px;
   opacity: 0;
   transition: 1s all ease;
   transform: translateY(50px);
@@ -156,17 +154,16 @@ main {
 }
 
 .isti h4 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
+  color: #232b2b;
 }
 
 .isti img {
   max-height: 200px;
   width: auto;
-  margin: 50px;
-  margin-top: 50px;
+  margin: 30px;
   cursor: pointer;
-  border-radius: 10px;
 }
 
 .right {
@@ -187,15 +184,13 @@ main {
   max-width: 70%;
   padding: 20px;
   margin-top: 10px;
+  color: #232b2b;
 }
-
-
 
 ul {
   list-style-type: none;
   margin-top: 30px;
 }
-
 
 h4 {
   text-decoration: none;
@@ -214,6 +209,7 @@ h4 {
   margin-left: 150px;
   opacity: 0;
   transition: 1000ms all ease;
+  color: #232b2b;
 }
 
 form {
@@ -228,7 +224,6 @@ textarea {
 }
 
 #oautoru {
-
   border-radius: 20px;
   margin: 50px auto;
   width: 80%;
@@ -242,6 +237,7 @@ textarea {
   text-align: center;
   font-size: 50px;
   margin-top: 20px;
+  color: #232b2b;
 }
 
 #hatri {
@@ -330,6 +326,7 @@ footer a:hover {
   bottom: 9%;
   right: 5%;
   z-index: 1;
+  font-size: 60px;
 }
 
 table {
@@ -401,15 +398,17 @@ textarea:focus {
 }
 
 #prikazivise {
-  background: rgb(223, 213, 213);
-  outline: none;
-  border: 1px solid #000;
-  cursor: pointer;
-  border-radius: 20%;
-  margin-top: 20px;
-  padding: 5px 20px;
-  margin-left: 45%;
+  border: 1px solid pink;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
+  margin-top: 20px;
+  margin-left: 45%;
 }
 
 #vise {
@@ -426,6 +425,7 @@ textarea:focus {
   text-align: center;
   margin-top: 20px;
   font-size: 24px;
+  color: #232b2b
 }
 
 #celokupnaPonuda {

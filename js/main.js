@@ -211,32 +211,32 @@ let celaPonuda = [
 ]
 //ZA IZDVOJENE
 var parfemNaslov = [
-  "Sisley Soir D'orient",
   "Creed Aventus",
+  "Sisley Soir D'orient",
   "Tom Ford Oud Wood",
   "Escada Especially Woman",
   "Calvin Klein CK One",
   "Paco Rabanne 1 Million",
 ];
 var parfemSlika = [
-  "sisli.jpg",
   "creed.jpg",
+  "sisli.jpg",
   "tf.jpg",
   "escada.jpg",
   "ck.jpg",
   "milion.jpg",
 ];
 var kratakOpis = [
-  "<li>Brend: Sisley</li><li>Zapremina: 100ml</li><li>Tip: Parfemska voda</li><li>Nota: turska ruža</li><li>Godina lansiranja: 2015</li><li>Pol: Ženski</li><li><b>Cena: 29790 RSD</b></li>",
-  "<li>Brend: Creed</li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: voćni chypre</li><li>Godina lansiranja: 2010 </li><li>Pol: Muški </li><li><b>Cena: 20400 RSD</b></li>",
-  "<li>Brend: Tom Ford</li><li>Zapremina: 30ml</li><li>Tip: Parfemska voda</li><li>Nota: orijentalni drveni </li><li>Godina lansiranja: 2007 </li><li>Pol: Unisex </li><li><b>Cena: 16900 RSD </b></li>",
-  "<li>Brend: Escada </li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: vodene note </li><li>Godina lansiranja: 2011 </li><li>Pol: Ženski </li><li><b>Cena: 10190 RSD </b></li>",
-  "<li>Brend: Calvin Klein </li><li>Zapremina: 100ml</li><li>Tip: Toaletna voda </li><li>Nota: 	citrusni aromatični </li><li>Godina lansiranja: 1994 </li><li>Pol: Unisex </li><li><b>Cena: 3560 RSD </b></li>",
-  "<li>Brend: Paco Rabanne </li><li>Zapremina: 50ml </li><li>Tip: Parfemsa voda </li><liNota: kožni </li><li>Godina lansiranja: 2009 </li><li>Pol: Muški </li><li><b>Cena: 6430 RSD </b></li>",
+  "<li>Brend: Creed</li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: voćni chypre</li><li>Pol: Muški </li><li><b>Cena: 20400 RSD</b></li>",
+  "<li>Brend: Sisley</li><li>Zapremina: 100ml</li><li>Tip: Parfemska voda</li><li>Nota: turska ruža</li><li>Pol: Ženski</li><li><b>Cena: 29790 RSD</b></li>",
+  "<li>Brend: Tom Ford</li><li>Zapremina: 30ml</li><li>Tip: Parfemska voda</li><li>Nota: orijentalni drveni </li><li>Pol: Unisex </li><li><b>Cena: 16900 RSD </b></li>",
+  "<li>Brend: Escada </li><li>Zapremina: 50ml</li><li>Tip: Parfemska voda</li><li>Nota: vodene note </li><li>Pol: Ženski </li><li><b>Cena: 10190 RSD </b></li>",
+  "<li>Brend: Calvin Klein </li><li>Zapremina: 100ml</li><li>Tip: Toaletna voda </li><li>Nota: 	citrusni aromatični </li><li>Pol: Unisex </li><li><b>Cena: 3560 RSD </b></li>",
+  "<li>Brend: Paco Rabanne </li><li>Zapremina: 50ml </li><li>Tip: Parfemsa voda </li><li>Nota: kožni </li><li>Pol: Muški </li><li><b>Cena: 6430 RSD </b></li>",
 ];
 var opis = [
-  "Parfem koji nas obavija prepoznatljivom, skoro magičnom atmosferom orijentalne palate. Alcazar dvorac u Sevilji se prikazuje u novom svetlu, ukazujući na miris obavijen velom tajne koja slavi divnu ženstvenost. Kompozicija je zagonetna koliko i očaravajuće senzualna. Blistavo očaravajućim gornjim notama zavodi cvetnim srcem ostavljajući delikatno drvenu toplinu na svom putu.",
   "Creed Aventus - chypre voćni miris za muškarce. Mirisna kreacija parfimera Olivier Creed, koja slavi snagu, moć, viziju i uspeh. Inspirisan je dramatičnim životom vladara Napoleona. Otvara se notama ananasa, bergamota, crne ribizle i jabuke. U srži su pačuli, suva breza, ruža i marokanski jasmin. Završava se asortimanom vanile, mošusa, hrastove mahovine i ambre. Izazovan, muževan i optimističan miris.",
+  "Parfem koji nas obavija prepoznatljivom, skoro magičnom atmosferom orijentalne palate. Alcazar dvorac u Sevilji se prikazuje u novom svetlu, ukazujući na miris obavijen velom tajne koja slavi divnu ženstvenost. Kompozicija je zagonetna koliko i očaravajuće senzualna. Blistavo očaravajućim gornjim notama zavodi cvetnim srcem ostavljajući delikatno drvenu toplinu na svom putu.",
   "Oud Wood od Tom Ford-a je luksuzan, prefinjen, atraktivan i očaravajući parfem namenjen muškarcima i ženama. Oud Wood parfem spada u izuzetno luksuznu Private Blend kolekciju, a otvara se notama palisandera, kardamona i kineskog bibera. U srcu ovog elegantnog, šarmantnog, sofisticiranog i čarobnog parfema su agar, sandalovina i vetiver, dok se osnova parfema sastoji od mešavine nota tonke, vanile i ambera.",
   "Especially Elixir od Escada-e je ženstven, sofisticiran, elegantan i očaravajući parfem namenjen savremenim ženama koje zrače samopouzdanjem. Especially Elixir parfem je intenzivnija varijanta parfema Escada Especially iz 2011. godine, a otvara se notama grejpfruta, kruške i ambrete.",
   "CK One od Calvin Klein-a je osvežavajući, prijatan, blistav i dopadljiv parfem namenjen muškarcim i ženama. CK One parfem se otvara svežim notama ananasa, mandarine, papaje, bergamota, kardamona i limuna. U srcu ovog šarmantnog, opuštajućeg i privlačnog parfema su muškatni orah, ljubičica, koren irisa, jasmin, đurđevak i ruža, dok se osnova parfema sastoji od mešavine nota sandalovine, ambera, mošusa, kedra i mahovine. Parfem Calvin Klein CK One je napravljen u veoma lepoj minimalističkoj staklenoj bočici.",
@@ -432,13 +432,13 @@ $(document).on("click",".heartButton", function (e) {
     //SKINUTO IZ FAVORITA
     $(this).css("color","#e1e1e1")
     $(this).attr("data-click","2")
-    displayNotification("Uspesno uklonjeno iz favorita");
+    displayNotification("Uspešno uklonjeno iz favorita");
   }
   else{
     //UNESENO U FAVORITE
     $(this).css("color", "#fbb72c");
     $(this).attr("data-click","1");
-    displayNotification("Uspesno dodato u favorite");
+    displayNotification("Uspešno dodato u favorite");
   }
   
 });
@@ -493,6 +493,42 @@ $(document).on("click", "#sortM", function (e) {
   }
   $("#celokupnaPonuda").html(ispis)
 
+});
+$(document).on("click", "#sortZ", function (e) {
+  e.preventDefault();
+  ispis = "";
+  for (let jedan of celaPonuda) {
+    if (jedan.pol == "Ženski") {
+      ispis +=
+        `
+    <div class="product-card">`;
+      if (parfemNaslov.includes(jedan.naslov)) {
+
+        ispis +=
+          `<div class="badge">Hot</div>`;
+      }
+
+      ispis += `
+    <div class="product-tumb">
+      <img src="${jedan.slika.src}" alt="${jedan.slika.alt}">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">${jedan.tip}, ${jedan.pol}</span>
+      <h4><a href="">${jedan.naslov}</a></h4>
+      <p>${jedan.pol} parfem, proizveden ${jedan.godinaProizvodnje}. Sa notama: ${jedan.nota}. Dolazi u pakovanju od ${jedan.zapremina}</p>
+      <div class="product-bottom-details">
+        <div class="product-price">${jedan.cena}</div>
+        <div class="product-links">
+          <a href="" class='heartButton'><i class="fa fa-heart"></i></a>
+          <a href="#kontakt"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  `
+    }
+  }
+  $("#celokupnaPonuda").html(ispis)
 });
 /////////////////////////////////////////////////////
 
@@ -747,42 +783,7 @@ function zadugme() {
   setInterval(Slider, 2000);
 };
 
-$(document).on("click", "#sortZ", function (e) {
-  e.preventDefault();
-  ispis = "";
-  for (let jedan of celaPonuda) {
-    if (jedan.pol == "Ženski") {
-      ispis +=
-        `
-    <div class="product-card">`;
-      if (parfemNaslov.includes(jedan.naslov)) {
 
-        ispis +=
-          `<div class="badge">Hot</div>`;
-      }
-
-      ispis += `
-    <div class="product-tumb">
-      <img src="${jedan.slika.src}" alt="${jedan.slika.alt}">
-    </div>
-    <div class="product-details">
-      <span class="product-catagory">${jedan.tip}, ${jedan.pol}</span>
-      <h4><a href="">${jedan.naslov}</a></h4>
-      <p>${jedan.pol} parfem, proizveden ${jedan.godinaProizvodnje}. Sa notama: ${jedan.nota}. Dolazi u pakovanju od ${jedan.zapremina}</p>
-      <div class="product-bottom-details">
-        <div class="product-price">${jedan.cena}</div>
-        <div class="product-links">
-          <a href="" class='heartButton'><i class="fa fa-heart"></i></a>
-          <a href="#kontakt"><i class="fa fa-shopping-cart"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  `
-    }
-  }
-  $("#celokupnaPonuda").html(ispis)
-});
 //////////////////////////////////////////////
 //SLAJDER
 var slajderSlike = ["thumb.jpg", "thumb1.jpg", "thumb2.jpg"];
